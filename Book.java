@@ -7,6 +7,7 @@ public class Book extends TangibleAsset{
 	}
 
 	public String getIsbn(){
+		System.out.println("isbnのゲッターが動作しました")
 		return this.isbn;
 	}
 }
